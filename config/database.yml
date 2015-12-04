@@ -27,7 +27,7 @@ staging:
   database: railsgirls_staging
   pool: 5
   username: root
-  password: !a8pdgkt3
+  password: "!a8pdgkt3"
   #socket: /var/run/mysqld/mysqld.sock
   
 production:
