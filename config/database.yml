@@ -21,8 +21,13 @@ test:
   database: db/test.sqlite3
 
 staging:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: mysql2
+  encoding: utf8
+  database: railsgirls_staging
+  pool: 4
+  username: root
+  password: !a8pdgkt3
+  socket: /var/run/mysqld/mysqld.sock
   
 production:
   <<: *default
