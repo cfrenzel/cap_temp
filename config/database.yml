@@ -24,7 +24,7 @@ staging:
   adapter: mysql2
   encoding: utf8
   database: railsgirls_staging
-  pool: 4
+  pool: 5
   username: root
   password: !a8pdgkt3
   socket: /var/run/mysqld/mysqld.sock
